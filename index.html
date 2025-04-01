@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מערכת מידע - ניתוח מכירות נקניקים</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2f97d3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .tableauPlaceholder {
+            margin-top: 30px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>מערכת מידע - ניתוח מכירות מוצרי נקניק</h1>
+</header>
+
+<main>
+    <h2>סקירה כללית</h2>
+    <p>
+        מערכת המידע נועדה לנתח ולהציג מידע עסקי חשוב אודות מוצרי הנקניק הנמכרים על ידי החברה. 
+        המערכת כוללת מידע מפורט על סוגי המוצרים השונים, כמות הלקוחות שרכשו כל מוצר, וכן נתוני מכירות מדויקים לכל אחד מהמוצרים.
+        המידע מוצג בצורה ויזואלית באמצעות דאשבורד אינטראקטיבי מבית Tableau, שמסייע לזהות מגמות, לבחון ביצועים ולשפר החלטות עסקיות.
+    </p>
+
+    <h2>הדאשבורד</h2>
+    <div class='tableauPlaceholder' id='viz1743533468479' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/te/tesk1_aviv/Dashboard1/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='tesk1_aviv&#47;Dashboard1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/te/tesk1_aviv/Dashboard1/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1743533468479');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width='100%'; 
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width='100%'; 
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        } else {
+            vizElement.style.width='100%'; 
+            vizElement.style.height='1377px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</main>
+
+<footer>
+    &copy; 2025 - מערכת מידע למכירות נקניק <br><br>
+            created by Aviv Epstein
+</footer>
+
+</body>
+</html>
